@@ -9,7 +9,7 @@ const App = () => {
 
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState("");
-  const [query, setQuery] = useState('chichen');
+  const [query, setQuery] = useState('');
 
 
   useEffect(() =>{
@@ -22,6 +22,8 @@ const App = () => {
       );
     const data = await response.json();
     setRecipes(data.hits);
+    console.log(data.hits);
+    
   };
 
   const updateSearch = e => {
@@ -36,6 +38,9 @@ const App = () => {
 
   return(
     <div className="App">
+        <div className="card text-center" id="myHeader">
+          <h2>Food Adda</h2>
+        </div>
       <form onSubmit={getSearch} className="search-form">
         <input className="search-bar" type="text" value={search} onChange={updateSearch}/>
         <button className="search-button" type="submit">submit</button>
