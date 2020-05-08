@@ -25,9 +25,11 @@
     justify-content: space-around;
     background: rgba(151, 31, 31, 0.233);
     align-items: center;
+    text-align: center;
     min-width: 40%;
     color: tomato;
     padding: 10px;
+    background: center;
   }
 
 .card{
