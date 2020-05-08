@@ -1,0 +1,19 @@
+.bs-scrolling-header{
+    position: fixed;
+    background: orange;
+    height: 100px;
+    width: 100px;
+    transition: all .3s ease-in-out;
+    margin-bottom: 50px;
+    top: 65px;
+}
+
+.small{
+    height: 50px;
+    background: blue;
+}
+
+.small *{
+    font-size: small;
+    color: bisque;
+}
