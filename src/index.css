@@ -31,3 +31,11 @@
   font-weight: 700;
   text-decoration: none;
 }
+.p{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+}
