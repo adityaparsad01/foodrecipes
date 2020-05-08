@@ -12,12 +12,12 @@
 
 .image{
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    padding-bottom: 10px;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
 }
 .p{
-    border-radius: 10px;
+    border-radius: 8px;
     box-shadow: 0px 5px 20px rgb(87, 87, 87);
     margin: 20px;
     display: flex;
@@ -26,4 +26,21 @@
     background: white;
     align-items: center;
     min-width: 40%;
+    color: tomato;
+    padding: 10px;
   }
+
+.card{
+    border-radius: 8px;
+    box-shadow: 0px 5px 20px rgb(87, 87, 87);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: white;
+    align-items: left;
+    min-width: 40%;
+    color: darkblue;
+    padding: 25px; 
+    flex-wrap: wrap;
+}
